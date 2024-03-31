@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailActivity"
+    android:background="@color/brown_dark">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="-38dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/img_item_photo"
+                android:layout_width="156dp"
+                android:layout_height="220dp"
+                android:scaleType="centerCrop"
+
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="MissingConstraints"
+                tools:src="@tools:sample/avatars" />
+
+
+            <TextView
+                android:id="@+id/tv_item_name"
+                android:layout_width="178dp"
+                android:layout_height="39dp"
+                android:gravity="center"
+                android:text="@string/fragrance_name"
+                android:textColor="@color/brown_light"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/img_item_photo"
+                tools:ignore="MissingConstraints" />
+
+
+            <TextView
+
+                android:id="@+id/textView"
+                android:layout_width="103dp"
+                android:layout_height="35dp"
+                android:layout_marginStart="8dp"
+                android:text="@string/description"
+                android:textColor="@color/brown_light"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_item_name"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/tv_fragranceDesc"
+                android:layout_width="336dp"
+                android:layout_height="82dp"
+                android:layout_marginStart="14dp"
+                android:text="@string/tvDesk"
+                android:textColor="@color/cream"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView"
+                tools:ignore="MissingConstraints" />
+
+            <TableLayout
+                android:id="@+id/tableLayout"
+                android:layout_width="0dp"
+
+                android:layout_height="177dp"
+                android:layout_marginStart="14dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="14dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView14"
+                tools:ignore="MissingConstraints">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp">
+
+                    <TextView
+
+                        android:layout_marginEnd="16dp"
+                        android:text="@string/top"
+                        android:textColor="@color/brown_light" />
+
+                    <TextView
+                        android:id="@+id/tv_topNotes"
+                        android:layout_weight="1"
+                        android:text="@string/top"
+                        android:textColor="@color/cream" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp">
+
+                    <TextView
+
+
+                        android:layout_marginEnd="16dp"
+                        android:text="@string/middle"
+                        android:textColor="@color/brown_light" />
+
+
+                    <TextView
+                        android:id="@+id/tv_middleNotes"
+                        android:layout_weight="1"
+                        android:text="@string/mid"
+                        android:textColor="@color/cream" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp">
+
+                    <TextView
+                        android:layout_marginEnd="16dp"
+                        android:text="@string/bottom"
+                        android:textColor="@color/brown_light" />
+
+                    <TextView
+                        android:id="@+id/tv_bottomNotes"
+                        android:layout_weight="1"
+                        android:text="@string/bottomm"
+                        android:textColor="@color/cream" />
+                </TableRow>
+            </TableLayout>
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="84dp"
+                android:layout_height="36dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="32dp"
+                android:text="@string/notes"
+                android:textColor="@color/brown_light"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_fragranceDesc"
+                tools:ignore="MissingConstraints" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/action_share"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:layout_margin="16dp"
+        android:contentDescription="@string/share"
+        android:src="@drawable/ic_share"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

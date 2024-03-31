@@ -1,0 +1,171 @@
+<resources>
+    <string name="app_name">MyIgnaw</string>
+    <string name="name">Ghiyats Ibnu Syahied</string>
+    <string name="email">ghiatsibnusyahied@gmail.com</string>
+    <string name="about_page">About</string>
+    <string name="fragrance_name">Nama Parfum</string>
+    <string name="description">Deskripsi</string>
+    <string-array name="data_name">
+        <item>Aphrodite</item>
+        <item>Aura</item>
+        <item>Iliad</item>
+        <item>Laz Pozas</item>
+        <item>Maleali</item>
+        <item>Matcha</item>
+        <item>Saff</item>
+        <item>Sansa</item>
+        <item>Solaris</item>
+        <item>SOTB</item>
+        <item>Verve</item>
+
+    </string-array>
+
+    <string-array name="data_notes_top">String
+        <item>Jasmine, Burnt Cinnamon, Myrrh</item>
+        <item>Bergamot, Yuzu, Apple</item>
+        <item>Pink Peppercorn, Peony, Muguet</item>
+        <item>Datura Trumpet</item>
+        <item>Bush Juniper, Tellicherry Pepper</item>
+        <item>Matcha, White Chocolate</item>
+        <item>Grapefruit, Green Notes</item>
+        <item>Bergamot, Mandarin, Saffron</item>
+        <item>Moss, Peach, Black Tea, Osmanthus</item>
+        <item>Bergamot, Mandarin, Violet Leaves</item>
+        <item>Mandarin, Galbanum, Ylang</item>
+    </string-array>
+
+    <string-array name="data_notes_middle">
+
+        <item>Cedarwood, tonka bean, sandalwood</item>
+        <item>Lily of the Valley, Sambac Jasmine, Ylang-ylang</item>
+        <item>Ylang ylang, Iris, Hedione</item>
+        <item>Sumatran Benzoin, Nutmeg</item>
+        <item>Palo Santo a.k.a The Tree of Life, Red Sandalwood</item>
+        <item>Jasmine, Tonka Bean</item>
+        <item>Rose, Floral, Iris</item>
+        <item> Ylang, Lily of the valley, Jasmine/White Floral</item>
+        <item>Rose, Tuberose, Narcissus, Toffee</item>
+        <item>Tuberose, Jasmine, Orange flower</item>
+        <item>Jasmine, Iris, Orange blossom</item>
+
+    </string-array>
+
+    <string-array name="data_notes_bottom">
+        <item>White musk, tobac, Vanilla, Mineral amber</item>
+        <item>Amber, Musk, Citrus, Nectarine</item>
+        <item>Amber, Acshmeran, Patchouli</item>
+        <item>Casmeran, Cedar, Sandalwood</item>
+        <item>Nagarmotha, Sulawesi Patchouli</item>
+        <item>Vanilla, Milk Powder</item>
+        <item>Woody, Heliotrope, Musk</item>
+        <item>Dryamber, Leathery, Musk</item>
+        <item>Cedarwood, Orris Root, Vetiver, Dark Chocolate</item>
+        <item>Vetiver, Amber, Tonka Bean</item>
+        <item>Vanilla, Tonka bean, Musk</item>
+    </string-array>
+    <string-array name="data_notes_complete">
+        <item>Notes:
+            Top- Jasmine, Burnt Cinnamon, Myrrh
+            Middle - Cedarwood, tonka bean, sandalwood
+            Bottom- White musk, tobac, Vanilla, Mineral amber</item>
+
+        <item>Notes:
+            Top- Bergamot, Yuzu, Apple
+            Middle- Lily of the Valley, Sambac Jasmine, Ylang-ylang
+            Bottom- Amber, Musk, Citrus, Nectarine</item>
+
+        <item>Notes:
+            Top- Pink Peppercorn, Peony, Muguet
+            Middle- Ylang ylang, Iris, Hedione
+            Bottom- Amber, Acshmeran, Patchouli</item>
+
+        <item>Notes:
+            Top- Datura Trumpet
+            Middle- Sumatran Benzoin, Nutmeg
+            Bottom- Casmeran, Cedar, Sandalwood</item>
+
+        <item>Notes:
+            Top- Bush Juniper, Tellicherry Pepper
+            Middle- Palo Santo a.k.a The Tree of Life, Red Sandalwood
+            Bottom- Nagarmotha, Sulawesi Patchouli</item>
+
+        <item>Notes:
+            Top- Matcha, White Chocolate
+            Middle- Jasmine, Tonka Bean
+            Bottom- Vanilla, Milk Powder</item>
+
+        <item>Notes:
+            Top- Grapefruit, Green Notes
+            Middle- Rose, Floral, Iris
+            Bottom- Woody, Heliotrope, Musk</item>
+
+        <item>Notes:
+            Top- Bergamot, Mandarin, Saffron
+            Middle- Ylang, Lily of the valley, Jasmine/White Floral
+            Bottom- Dryamber, Leathery, Musk</item>
+
+        <item>Notes:
+            Top- Moss, Peach, Black Tea, Osmanthus
+            Middle- Rose, Tuberose, Narcissus, Toffee
+            Bottom- Cedarwood, Orris Root, Vetiver, Dark Chocolate.</item>
+
+        <item>Notes:
+            Top- Bergamot, Mandarin, Violet Leaves
+            Middle- Orris, Freesia, Cedarwood
+            Bottom- Vetiver, Amber, Tonka Bean</item>
+
+        <item>Notes:
+            Top- Mandarin, Galbanum, Ylang
+            Middle- Tuberose, Jasmine, Orange flower
+            Bottom-  Vanilla, Tonka bean, Musk</item>
+
+        <item>Notes:
+            Top- Vanilla, pear, Blackcurrant
+            Middle- Jasmine, Iris, Orange blossom
+            Bottom-  Praline, Vanilla, Tonka Bean</item>
+
+    </string-array>
+    <string name="tvDesk">ini deskripsi</string>
+
+    <string-array name="fragrance_description">
+
+        <item>Love is an obsession, it possesses you So, before you let the obsession towards someone else possess you, Ignite the inner Aphrodite within you. Warm, woody and aromatic Myrrh hypnotises at first spray, transitioning into sweet and smoky burnt cinnamon, with a breeze of elegant white florals</item>
+        <item>The star of our Island Collection an ode to the beauty and sensuality of "Musks". Musk Aura is an enchanting fragrance that combines the allure of delicate florals with an emphasis on jasmine, ylang ylang, and rose with the exquisite brightness of yuzu and irresistible sensuality of musk.</item>
+        <item>ILIAD is an olfactory homage to Homer’s epic poem – a divine scent that transports you to the golden age of heroes. Inspired by the poems protagonist, ILIAD sings the saga of Achilles in the notes of sun-kissed cashmeran, sensual amber, and sultry florals</item>
+        <item>Rustling wind and singing birds, as i walk through the forest listening to the nature’s song of the Angel’s trumpet. White and hopeful, it breathes. Velvety body of Sumatran benzoin grounded with a humbling blend of cashmeran and sandalwood is serene yet so surreal. Stand still. LAS POZAS knows where you are. You must let it find you.</item>
+        <item>MALEALI tells the tale of an ironclad island, carved into the timeworn paths of men and earth. As the Tree of Life watches over the land, each step brings you closer to the very soul of MALEALI, where Sulawesi Patchouli emerges as a symbol of its people’s unwavering spirit.</item>
+        <item>Matcha Latte is a calming blend of Matcha and White Chocolate with a twist of florals and some mint.This intoxicating blend smells great all day long and gives off a zen and relaxed vibe.its the perfect scent for a lazy sunday at home, very cozy and comfy.</item>
+        <item>SAFF has cultivated its luxurious style by amplifying the sensuality of leather and musk. Communicate your intense, powerful, original self with SAFF. It exudes classic, smooth leather, with white musk and smoky elements.</item>
+        <item>Sansa is a scent of Mystery, Charm, and Effortless Beauty Shes the mystery girl everyone wants to get to know,the introvert that grabs everyones attention with her charm, the one with astonishing beauty, and a personality filled with edge. Sansa beautifully highlights Orris and Osmanthus tea facets, whilst forming a cloud of sweet peachy notes coupled with a sophisticated mix of jasmine, tuberose, and rose.</item>
+        <item>A seductive vapor that captures your wildest dreams. Blending the warmth of exotic amber, ethereal Haitian Vetiver and the mystery of sunset in its rich spicy notes, Solaris ignites the fire that lives within you. Bold with a dark twist, Solaris is intensely alluring and irresistibly addictive. Solaris teaches you the ways of the sun, it does not resist, it simply shines. Now, embrace Solaris’ flames.</item>
+        <item>S. O. T. B captures the perfect summer dream like no other: sun-kissed skin, colorful swimwear, fun pool parties, and a glass of refreshing Summer on the Beach! Designed with an exciting blend of mandarin, sweet floral notes, and rich vanilla musk, this tropical scent will remind you of warm sea breeze, soft sands, and lush palm trees on a hot summer day.</item>
+        <item>A bright black currant opening and majestic notes of jasmine meets rich vanilla and decadent praline, creating a sophisticated powdery fragrance that encourages you to dress up to the nines.Elegant and Charismatic, this one is a total head turner.</item>
+
+    </string-array>
+    <integer-array name="data_photo">
+        <item>@drawable/aphrodite</item>
+        <item>@drawable/aura</item>
+        <item>@drawable/iliad</item>
+        <item>@drawable/laz_pozas</item>
+        <item>@drawable/maleali</item>
+        <item>@drawable/matcha</item>
+        <item>@drawable/saff</item>
+        <item>@drawable/sansa</item>
+        <item>@drawable/solaris</item>
+        <item>@drawable/sotb</item>
+        <item>@drawable/verve</item>
+
+
+    </integer-array>
+
+    <string name="list">List</string>
+    <string name="grid">Grid</string>
+    <string name="top">TOP</string>
+    <string name="middle">MIDDLE</string>
+    <string name="mid">mid</string>
+    <string name="bottom">BOTTOM</string>
+    <string name="bottomm">bottom</string>
+    <string name="notes">NOTES</string>
+    <string name="share">Share</string>
+
+</resources>

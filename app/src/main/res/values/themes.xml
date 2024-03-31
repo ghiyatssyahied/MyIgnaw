@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MyIgnaw" parent="Theme.Material3.DayNight">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/brown_dark</item>
+        <item name="colorOnPrimary">@color/cream</item>
+        <!-- Customize your theme here. -->
+        <item name="colorSecondary">@color/brown_light_dark</item>
+        <item name="colorOnSecondary">@color/white</item>
+    </style>
+
+    <style name="Theme.MyIgnaw" parent="Base.Theme.MyIgnaw"/>
+</resources>
